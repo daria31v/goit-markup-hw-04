@@ -283,6 +283,7 @@ div {
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 10px;
+  margin-top: 55px;
 }
 .features-text {
   color: var(--main-text);
@@ -378,7 +379,7 @@ div {
   border: 1px solid var(--border-btn);
   border-top: none;
 }
-
+/* ICONS */
 /* SOCIAL */
 .social {
   display: flex;
@@ -400,4 +401,20 @@ div {
 }
 .social-icon {
   fill: var(--icon-color);
+}
+
+.social-profile:hover {
+  background-color: var(--accent-bgr-btn-color);
+}
+.social-profile:hover .social-icon {
+  fill: var(--white-color);
+}
+/* FEATURES */
+.features-icon {
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
