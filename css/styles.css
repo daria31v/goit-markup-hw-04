@@ -12,6 +12,7 @@
   --main-text: #757575;
   --hover-focus-btn: #188ce8;
   --border-btn: #eeeeee;
+  --icon-color: #afb1b8;
 }
 /* общее для двух страниц */
 body {
@@ -376,4 +377,27 @@ div {
   padding: 20px 24px;
   border: 1px solid var(--border-btn);
   border-top: none;
+}
+
+/* SOCIAL */
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+.social-link {
+}
+.social-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+}
+.social-icon {
+  fill: var(--icon-color);
 }
