@@ -182,10 +182,16 @@ div {
 }
 /* стили для подвалов обоих страниц */
 /* FOOTER */
+
 .footer {
   background-color: var(--footer-bgr-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.container.footer {
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
 }
 
 .logo-link.footer {
@@ -409,10 +415,17 @@ div {
   fill: var(--white-color);
 }
 .social-title {
+  margin-bottom: 20px;
 }
-.footer-social {
+.footer-left-bloc {
+  display: block;
+  gap: 70px;
+}
+.footer-rigth-bloc {
+}
+.item-rigth-bloc {
   display: flex;
-  align-items: center;
+  gap: 10px;
 }
 /* FEATURES */
 .features-icon {
@@ -422,4 +435,24 @@ div {
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+/* social footer */
+.social-invate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.social-icon {
+  fill: var(--white-color);
+}
+
+.social-invate:hover {
+  background-color: var(--accent-bgr-btn-color);
+}
+.social-invate:hover .social-icon {
+  fill: var(--white-color);
 }
