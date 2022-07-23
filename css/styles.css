@@ -64,7 +64,8 @@ img {
   padding-bottom: 32px;
 }
 .list-link.header {
-  display: block;
+  display: flex;
+  align-items: center;
   color: var(--main-text);
   font-weight: 500;
   padding-top: 32px;
@@ -80,12 +81,13 @@ div {
 }
 
 /* HEADER */
-.header {
+.header.up {
   border-bottom: 1px solid #ececec;
 }
 .container.header {
   display: flex;
   align-items: center;
+  border: 0px;
 }
 .container-list {
 }
@@ -93,7 +95,6 @@ div {
   display: flex;
   margin-left: auto;
   align-items: center;
-  border-bottom: 0px;
 }
 .header-nav {
   margin-right: 50px;
