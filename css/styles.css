@@ -103,6 +103,8 @@ div {
   margin-right: 0;
 }
 .header-contact {
+  display: flex;
+  align-items: center;
 }
 .list.header-contact {
   display: flex;
@@ -456,4 +458,9 @@ div {
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+/* header-icons */
+.header-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
