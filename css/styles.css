@@ -13,6 +13,7 @@
   --hover-focus-btn: #188ce8;
   --border-btn: #eeeeee;
   --icon-color: #afb1b8;
+  --icon-border-color: rgba(175, 177, 184, 1);
 }
 /* общее для двух страниц */
 body {
@@ -391,6 +392,37 @@ div {
   border: 1px solid var(--border-btn);
   border-top: none;
 }
+
+/* CLIENTS */
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.clients-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-border-color);
+  border-radius: 4px;
+  color: var(--icon-color);
+}
+.clients-item:hover,
+.clients-item:focus {
+  color: var(--accent-bgr-btn-color);
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
 /* ICONS */
 /* SOCIAL */
 .social {
