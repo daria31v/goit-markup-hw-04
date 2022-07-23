@@ -85,7 +85,6 @@ div {
 }
 .container.header {
   display: flex;
-  display: flex;
   align-items: center;
 }
 .container-list {
@@ -408,6 +407,12 @@ div {
 }
 .social-profile:hover .social-icon {
   fill: var(--white-color);
+}
+.social-title {
+}
+.footer-social {
+  display: flex;
+  align-items: center;
 }
 /* FEATURES */
 .features-icon {
