@@ -121,6 +121,12 @@ div {
   margin-right: 0;
 }
 
+/* header-icons */
+.header-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 /* стиль для логотипов */
 .logo-link {
   margin-right: 93px;
@@ -197,11 +203,15 @@ div {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.container.footer {
+.container.footer-down {
   display: flex;
   align-items: baseline;
-  gap: 70px;
 }
+.footer-left-bloc {
+  display: block;
+  margin-right: 70px;
+}
+/* /* .footer-rigth-bloc } */
 
 .logo-link.footer {
   margin-bottom: 20px;
@@ -228,6 +238,28 @@ div {
 .footer-list {
   margin-top: 9px;
 }
+/* ICONS FOOTER */
+.social-invate.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.social-icon-footer {
+  fill: var(--white-color);
+}
+
+.social-invate:hover,
+.social-invate:focus {
+  background-color: var(--accent-bgr-btn-color);
+}
+.social-invate:hover .social-icon {
+  fill: var(--white-color);
+}
+
 /* СОЦІАЛЬНІ МЕРЕЖІ */
 .container.social {
   display: flex;
@@ -480,39 +512,9 @@ div {
 .social-title {
   margin-bottom: 20px;
 }
-.footer-left-bloc {
-  display: block;
-  gap: 70px;
-}
-.footer-rigth-bloc {
-}
+
 .item-rigth-bloc {
   display: flex;
   gap: 10px;
 }
 /* social footer */
-.social-invate.link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-}
-.social-icon-footer {
-  fill: var(--white-color);
-}
-
-.social-invate:hover {
-  background-color: var(--accent-bgr-btn-color);
-}
-.social-invate:hover .social-icon {
-  fill: var(--white-color);
-}
-
-/* header-icons */
-.header-icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
