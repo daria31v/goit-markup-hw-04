@@ -341,15 +341,6 @@ div {
   color: var(--main-text);
   line-height: 1.71;
 }
-/* FEATURES-icons */
-.features-icon {
-  display: block;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
 
 /* WE */
 .section-we {
@@ -440,10 +431,13 @@ div {
   border: 1px solid var(--border-btn);
   border-top: none;
 }
+.project-link {
+  display: block;
+}
 .project-link:hover,
 .project-link:focus {
-  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
-    0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 /* CLIENTS */
